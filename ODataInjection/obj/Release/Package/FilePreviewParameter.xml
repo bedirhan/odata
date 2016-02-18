@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="odata" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Code\\dotnet\\ODataInjection\\ODataInjection\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Code\\dotnet\\ODataInjection\\ODataInjection\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="UserContext-Web.config Connection String" description="UserContext Connection String used in web.config by the application to access the database." value="Data Source=.\SQLEXPRESS;Initial Catalog=MyDatabase;Integrated Security=True;MultipleActiveResultSets=True;AttachDBFilename=|DataDirectory|UserDB.mdf;User Instance=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Code\\dotnet\\ODataInjection\\ODataInjection\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UserContext']/@connectionString" />
+  </parameter>
+</parameters>

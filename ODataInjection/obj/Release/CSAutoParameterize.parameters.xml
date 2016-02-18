@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="UserContext-Web.config Connection String" description="UserContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=|DataDirectory|UserDB.sdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Code\\dotnet\\ODataInjection\\ODataInjection\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UserContext']/@connectionString" />
+  </parameter>
+</parameters>
